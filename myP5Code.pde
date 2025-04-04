@@ -1,8 +1,8 @@
 var snowX = [100, 200, 300, 400];
 var snowY = [400, 400, 400, 400];
 
-var cloudX = [100, 120, 160, 200];
-var cloudY = [50, 70, 40, 20];
+var cloudX = [200, 300, 400, 500];
+var cloudY = [70, 70, 70, 70];
 
 
 var treeX = [100, 200, 300, 400];
@@ -19,7 +19,7 @@ setup = function() {
    rect(-10, 380, 610, 150);
    
    textSize(80);
-   for(var c = 0; t < cloudX.length; t++){
+   for(var c = 0; c < cloudX.length; c++){
      text("☁", cloudX[c], cloudY[c]);
    }
    
