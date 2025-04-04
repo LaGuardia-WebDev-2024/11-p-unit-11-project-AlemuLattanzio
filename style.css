@@ -8,13 +8,19 @@ body {
   font-family: Georgia, serif;
 }
 
-html{
+html{  
   height: 100%;
   width: 100%;
 }
 
 #myCanvas {
-  border: 1px solid black;
+   border: 1px solid black;
+  background-image: url("https://media.istockphoto.com/id/1094317972/photo/sea-horizon-ocean-tropical-summer-pink-sky.jpg?s=612x612&w=0&k=20&c=54BtddB_gP8Cjk7McruNrOdUEdVWsBGQo8S6JR-lP08=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 600px;
+  height: 450px;
 }
 
 .container{
@@ -36,8 +42,12 @@ html{
 h2{
   color: black;
 /*   font-size: 10px; */
+  background-color: green;
+  
 }
-
+h1{
+  color: orange;
+}
 #start{
   text-align: left;
 }
